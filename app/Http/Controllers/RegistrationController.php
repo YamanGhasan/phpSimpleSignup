@@ -28,7 +28,7 @@ class RegistrationController extends Controller
             'password' => bcrypt($request->input('password')),
         ]);
 
-        // Redirect to the dashboard or any other page
+        // Redirect to the dashboard 
         return redirect()->route('dashboard');
     }
 }
