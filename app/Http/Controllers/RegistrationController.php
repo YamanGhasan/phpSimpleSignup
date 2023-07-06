@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Auth;
 use App\Models\FreelancerUser; 
 
 class RegistrationController extends Controller
-{
+{ 
     public function register(Request $request)
     {
         $validator = Validator::make($request->all(), [
